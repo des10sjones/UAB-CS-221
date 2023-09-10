@@ -1,0 +1,59 @@
+h1 {
+  display: flex;
+  color:whitesmoke;
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  background-color: black;
+  padding: 3%;
+  margin: 3%;
+  margin:0ch;
+}
+header{
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: whitesmoke;
+  background-color: black;
+
+}
+p{
+  text-align: center;
+}
+p{
+  font-family:Georgia, 'Times New Roman', Times, serif
+  
+}
+body{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: dimgrey;
+  color: white;
+}
+section{
+  background-color: black;
+  color: whitesmoke;
+
+}
+nav{
+  text-decoration:dotted;
+  text-decoration: lavenderblush;
+  
+}
+nav:hover{
+  text-decoration:solid;
+  background-color: azure;
+  text-decoration-color: crimson;
+}
+
+  a:link{
+  color:tomato;
+
+  }
+  a:visited {
+      color: tomato;
+    }
+
+  a:hover{
+  color:black
+  }
