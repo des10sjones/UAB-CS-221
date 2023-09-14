@@ -1,0 +1,28 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: blue;
+  border-bottom:solid;
+}
+main{
+   width: 80%;
+   margin: 0 auto;
+   background-color: darkcyan;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: maroon;
+
+}
+
+p{
+  padding: 1em;
+}
