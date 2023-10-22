@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Homework 8</title>
+       <link rel="stylesheet" href="styles.css">
+       <script>
+        var grade = prompt(" Enter Grade ")
+        var letGrade;
+        var treat;
+        
+        if (grade >= 90 && grade < 100 ){
+            letGrade = 'A';
+            treat = 'Candy';
+        } else if ( grade >= 80 && grade < 90){
+            letGrade = 'B';
+            treat = 'Apple'
+        }else if ( grade >= 70 && grade < 80){
+            letGrade = 'C';
+            treat = 'Mint'
+        }else if ( grade >= 60 && grade < 70){
+            letGrade = 'D';
+            treat = 'Pencil'
+        }else if (grade>=0 && grade<60){
+            letGrade = 'F';
+            treat = 'Awkard Converstation With Parents'
+        } else {
+           console.log( 'Error')
+        }
+        console.log('Grade:', grade)
+        console.log('Letter Grade:', letGrade)
+        console.log('Treat:', treat)
+       </script>
+
+    </head>
+
+    <body>
+
+    </body>
+    </html>
